@@ -1,0 +1,55 @@
+#overall {
+  font-family: 'Dancing Script'; /*google font 1*/
+
+  font-family: 'Playfair Display', cursive; /*google font 2*/
+}
+.basic {
+  text-align: center;
+  color: green;
+}
+
+.style1{
+    font-family: 'Playfair Display', cursive; /*google font 2*/
+}
+
+#greenish{
+  background-color: yellowgreen;
+}
+
+#green{
+  background-color: green;
+}
+
+#white{
+  background-color: white;
+}
+
+#time{
+  font-style: italic
+}
+
+#info{
+  font-family: 'Playfair Display', cursive;
+}
+
+#important{
+  font-weight: bold
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td {
+   width: 25%;
+}
+
+footer{
+  background-color: lightgreen;
+  font-family: 'Dancing Script'; /*google font 1*/
+  border: 2px;
+  border-style: double;
+  border-color: black;
+  width: 40%;
+}

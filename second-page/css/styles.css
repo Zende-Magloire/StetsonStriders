@@ -1,0 +1,47 @@
+#top{
+  text-align: center;
+  color: green;
+}
+
+#main {
+  font-family: 'Dancing Script'; /*google font 1*/
+  font-family: 'Playfair Display', cursive; /*google font 2*/
+  float: left;
+}
+
+#right{
+  float: right;
+  text-align: justify;
+  }
+
+#greenish{
+  background-color: yellowgreen;
+}
+
+#green{
+  background-color: green;
+}
+
+#white{
+  background-color: white;
+}
+
+#bottom{
+  width: 25%;
+  border: 2px;
+  border-style: double;
+  border-color: black;
+  background-color: lightgreen;
+  font-family: 'Dancing Script'; /*google font 1*/
+  float: right;
+  margin-top: 124px;
+}
+
+.style1 {
+  font-family: 'Playfair Display', cursive; /*google font 2*/
+}
+
+table{
+  margin-right: 200px;
+}
+
