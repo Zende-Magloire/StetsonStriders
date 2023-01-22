@@ -3,27 +3,62 @@
   color: green;
 }
 
-#main {
-  font-family: 'Dancing Script'; /*google font 1*/
-  font-family: 'Playfair Display', cursive; /*google font 2*/
-  float: left;
+.main{
+  display: grid;
+  grid-template-columns: 2fr, 1fr;
+  gap:30px;
 }
 
-#right{
-  float: right;
-  text-align: justify;
-  }
+.style1 {
+  font-family: 'Playfair Display', cursive; /*google font 2*/
+  display:table-row;
+  border: 1px solid black;
+  width: 20%;
+}
+
+.heading{
+  display: table-row;
+  border: 1px solid black;
+  width: 20%;
+  text-align: center;
+}
+
+.table{
+  display: table;
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+#time{
+  font-style: italic;
+  display: table-cell;
+  border: 1px solid black;
+  width: 20%;
+}
 
 #greenish{
   background-color: yellowgreen;
+  display: table-cell;
+  border: 1px solid black;
+  width: 20%;
 }
 
 #green{
   background-color: green;
+  display: table-cell;
+  border: 1px solid black;
+  width: 20%;
 }
 
 #white{
   background-color: white;
+  display: table-cell;
+  border: 1px solid black;
+  width: 20%;
+}
+
+#exec{
+  text-align: center;
 }
 
 #bottom{
@@ -35,14 +70,5 @@
   font-family: 'Dancing Script'; /*google font 1*/
   float: right;
   margin-top: 124px;
-}
-
-.style1 {
-  font-family: 'Playfair Display', cursive; /*google font 2*/
-}
-
-table{
-  margin-right: 200px;
-  border-collapse: collapse;
 }
 
